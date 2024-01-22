@@ -1,0 +1,5 @@
+pip install SpeechRecognition -- SpeechRecognition 3.10.1
+pip install pyttsx3 -- pyttsx3 2.90
+pip install pywhatkit -- pywhatkit 5.4
+pip install wikipedia -- wikipedia 1.4.0
+pip install pyowm -- pyowm 3.3.0
