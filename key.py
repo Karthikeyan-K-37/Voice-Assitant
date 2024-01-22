@@ -1,0 +1,1 @@
+OPENWEATHER = 'GET YOUR OWN API FROM https://openweathermap.org/'
