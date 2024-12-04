@@ -59,6 +59,18 @@ To install the required dependencies for Multi-Tenant RAG, follow these steps:
 
 ---
 
+Follow these steps to run the Multi-Tenant RAG application.
+
+---
+
+## Run the Application
+
+1. **Using the Batch Script** (Windows):
+   ```bash
+   ./run.bat
+
+
+
 ## Notes
 
 - Ensure that Python and Poetry are properly installed and added to your system's PATH.
