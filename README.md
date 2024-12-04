@@ -22,8 +22,7 @@ Follow these steps to set up and install Multi-Tenant RAG.
 
 1. **Python**: Version 3.8 or above
 2. **Poetry**: Dependency management tool
-3. **Milvus**: Vector database (ensure it is installed and running)
-4. **SQLite**: Pre-installed with Python, used for lightweight database management.
+3. **Milvus**: Vector database (ensure it is installed and running).
 
 ---
 
