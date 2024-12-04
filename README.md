@@ -69,9 +69,14 @@ The `Dockerfile` is used to create a Docker image for the **Multi-Tenant RAG** p
    Run the following command in the root directory of the project:
    ```bash
    docker build -t multi-tenant-rag
-   ### Start the Services
+  
 
-docker-compose up --build
+### Start the Services
+
+Run the following command:
+   ```bash
+   docker-compose up --build
+
 
 # Usage
 
