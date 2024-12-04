@@ -62,6 +62,7 @@ To install the required dependencies for Multi-Tenant RAG, follow these steps:
 Follow these steps to run the Multi-Tenant RAG application.
 
 ---
+# Usage
 
 ## Run the Application
 
