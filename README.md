@@ -12,17 +12,6 @@ Multi-Tenant RAG is a system designed to provide efficient and scalable solution
 - **Extensible Design**: Easily integrates new features or external APIs.
 
 ---
-
-## Key Features
-
-1. **Tenant Isolation**: Ensures secure and separate data handling for each tenant.
-2. **Search Optimization**: Implements efficient search for large datasets.
-3. **Scalable Storage**: Utilizes Milvus for handling large-scale vector data.
-4. **Customizable Configurations**: `.env` file for environment-specific settings.
-
-
-
----
 # Installation
 
 Follow these steps to set up and install Multi-Tenant RAG.
