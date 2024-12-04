@@ -23,6 +23,9 @@ Follow these steps to set up and install Multi-Tenant RAG.
 1. **Python**: Version 3.8 or above
 2. **Poetry**: Dependency management tool
 3. **Milvus**: Vector database (ensure it is installed and running).
+4. [Docker](https://www.docker.com/get-started)
+5. [Docker Compose](https://docs.docker.com/compose/install/)
+
 
 ---
 
@@ -56,17 +59,19 @@ To install the required dependencies for Multi-Tenant RAG, follow these steps:
    ```bash
    poetry install
 
-# Verify Milvus Setup
+## Using the Dockerfile
 
-Milvus is a critical component for the vector-based retrieval system in Multi-Tenant RAG. Ensure it is installed and running.
+The `Dockerfile` is used to create a Docker image for the **Multi-Tenant RAG** project.
 
----
+### Steps to Build and Run with Dockerfile
 
-## Steps
-
-1. **Start the Milvus Server**:
+1. **Build the Docker Image**
+   Run the following command in the root directory of the project:
    ```bash
-   milvus-server start
+   docker build -t multi-tenant-rag
+   ### Start the Services
+
+docker-compose up --build
 
 # Usage
 
