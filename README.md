@@ -1,66 +1,78 @@
-# SayAI RAG (Retrieval-Augmented Generation)
+# Multi-Tenant RAG
 
-## Project Title
-**SayAI RAG: A Framework for Retrieval-Augmented Generation**
+Multi-Tenant RAG (Retrieval-Augmented Generation) is a Python-based project designed to implement RAG workflows for multi-tenant architectures. It combines vector-based search, efficient data retrieval, and intelligent query handling tailored for multi-tenancy.
 
-This project is designed to enhance data-driven workflows by combining efficient retrieval systems with generative AI capabilities. The goal is to enable fast, relevant, and context-aware responses by integrating a vector database with custom text processing and query handling pipelines.
+## Documentation
 
----
+The project is organized into several key areas. Refer to the links below for detailed information:
 
-## Project Description
+- [Overview](docs/Overview.md)
+- [Installation](docs/Installation.md)
+- [Usage](docs/Usage.md)
+- [Configuration](docs/Configuration.md)
+- [File Structure](docs/FileStructure.md)
+- [Contributing](docs/Contributing.md)
+- [License](docs/License.md)
 
-SayAI RAG is a Python-based project that combines retrieval systems with generative workflows to enhance data accessibility and usability. By integrating Milvus as a vector store, efficient text search, and text chunking, this framework supports advanced information retrieval for real-world applications.
+# Installation
 
-### Why This Project?
-
-1. **Real-World Problem**: Existing systems often fail to provide both context and relevance in generated responses. This project addresses that by combining retrieval and generation.
-2. **Technology Stack**:
-   - **Milvus**: Enables high-performance vector search.
-   - **Python**: Powers the logic and integration of components.
-   - **SQLite**: Provides lightweight, local storage.
-
-### Challenges and Future Enhancements
-- **Challenges**:
-  - Handling large datasets efficiently in real-time.
-  - Ensuring seamless integration between retrieval and generation.
-- **Future Enhancements**:
-  - Add support for cloud-based vector stores.
-  - Implement fine-tuned models for specific domains.
-  - Provide a web interface for easier accessibility.
-
----
-
-## Table of Contents
-
-1. [Project Title](#project-title)
-2. [Project Description](#project-description)
-3. [Features](#features)
-4. [Prerequisites](#prerequisites)
-5. [Installation](#installation)
-6. [How to Use the Project](#how-to-use-the-project)
-7. [File Structure](#file-structure)
-8. [Contributing](#contributing)
-9. [Credits](#credits)
-10. [License](#license)
-
----
-
-## Features
-
-- **Vector Store Integration**: Fast and scalable data retrieval using Milvus.
-- **Text Splitting**: Splits large documents into manageable chunks for efficient processing.
-- **Search Algorithms**: Customizable search workflows for different use cases.
-- **Configurable Environment**: Environment-based settings for better flexibility.
-- **Local Database**: Includes a SQLite database for structured data storage.
+Follow these steps to set up and install Multi-Tenant RAG.
 
 ---
 
 ## Prerequisites
 
-Ensure you have the following installed:
+1. **Python**: Version 3.8 or above
+2. **Poetry**: Dependency management tool
+3. **Milvus**: Vector database (ensure it is installed and running)
+4. **SQLite**: Pre-installed with Python, used for lightweight database management.
 
-1. **Python**: Version 3.8 or above.
-2. **Poetry**: Install it with:
+---
+
+## Steps
+
+1. **Clone the Repository**:
    ```bash
-   pip install poetry
+   git clone <repository-url>
+   cd muti-tenant-rag
+
+---
+# Install Dependencies
+
+To install the required dependencies for Multi-Tenant RAG, follow these steps:
+
+---
+
+## Steps
+
+1. **Install Dependencies Using Poetry**:
+   - If Poetry is already installed:
+     ```bash
+     poetry install
+     ```
+
+2. **Run Initialization Script** (Windows):
+   - Use the batch script to initialize:
+     ```bash
+     ./install.bat
+     ```
+
+---
+
+## Notes
+
+- Ensure that Python and Poetry are properly installed and added to your system's PATH.
+- If you encounter errors, verify your Python version (3.8 or above) and retry the installation.
+
+  # Verify Milvus Setup
+
+Milvus is a critical component for the vector-based retrieval system in Multi-Tenant RAG. Ensure it is installed and running.
+
+---
+
+## Steps
+
+1. **Start the Milvus Server**:
+   ```bash
+   milvus-server start
 
